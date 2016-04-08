@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {
 
@@ -119,3 +120,126 @@ form
 
 
 
+=======
+
+body {
+
+	padding-left: 25px;
+	background-image: url(image1.jpg);
+}
+
+
+@font-face{
+	font-family:"handwritten";
+	src: url("Colors Of Autumn.ttf");
+}
+
+
+#myname {
+	font-family: "Colors Of Autumn";
+	font-size: 25px;
+
+
+}
+
+#mainbody {
+	
+	font-family: "Monotype Corsiva", cursive;
+	font-size: 25px;
+	height: 65%;	
+
+}
+
+
+
+p {
+	
+	font-family: "Monotype Corsiva", cursive;
+	font-size: 20px;
+	
+}
+
+p ol {
+	
+	font-family: "Monotype Corsiva", cursive;
+	font-size: 25px;
+}
+
+blockquote{
+	
+	font-family: "Monotype Corsiva", cursive;
+	font-size: 25px;
+
+}
+
+
+form
+		{
+			
+			margin: 0 auto;
+			height: 65%;
+		}
+
+		label
+		{
+			display:block;
+			margin: 5px 0 5px 20px;
+			font: 18px sans-sarif;
+			color:#888;
+		}
+
+		input 
+		{
+			width: 250px;
+			font: 18px sans-sarif;
+			color:#888;
+
+		}
+
+		textarea
+		{
+			width: 250px;
+			margin: 0 0 0 0;
+		}
+
+		fieldset
+		{
+			border: none;
+			padding:20px;
+
+		}
+
+
+		.Submit-button
+		{
+			font: 18px sans-sarif;
+			color:#888;
+			width: 125px;
+			margin: 5px 20 5px 20px;
+		}
+
+
+
+#footer{
+
+	padding: 5px;
+	font-color: black bold;
+	padding-left: 10%;
+	font-style: italic;
+	
+	
+}
+
+#footer-text{
+	font-family: "Monotype Corsiva", cursive;
+	font-size: 18px;
+	padding-top: 10px;
+	text-align: center;
+
+}
+
+
+
+
+
+>>>>>>> 72120b96429bc7dbb5c2f6dad9984b6aa9316126
