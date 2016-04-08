@@ -1,140 +1,58 @@
 <!DOCTYPE html PUBLIC>
 
 <html>
-	<head>
-		<title>Contact Form</title>
+<head>
+<title>Aheset Taye Seifu's portfolio About page</title>
 
-<script type="text/javascript" src="function.js"></script>
-
-		<link href="menu.css" rel="stylesheet" type= "text/css"/>
+<link href="indexcss.css" rel="stylesheet" type="text/css"/>
 
 
-		<style type="text/css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-		html {
-			background-color: #999;
-			background-image: url("sky.jpg");
-			background-repeat: no-repeat;
-			background-position: center center;
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-		
-		}
-
-		#form-wrap
-		{
-			width: 600px;
-			border: 5px solid #ccc;
-			background-color: grey;
-			opacity:0.5;
-			margin-left: 50px;
-			padding: 20px;
-			opacity: 0.5;
-			border-style:solid;
-			float: left;
-
-		}
-
-		form
-		{
-			width: 600px;
-			margin: 0 auto;
-			float: right;
-
-		}
-
-		label
-		{
-			display:block;
-			margin: 5px 0 5px 20px;
-			font: 18px sans-sarif;
-			color:#888;
-		}
-
-		input 
-		{
-			width: 250px;
-			font: 18px sans-sarif;
-			color:#888;
-
-		}
-
-		textarea
-		{
-			width: 250px;
-			margin: 0 0 0 0;
-		}
-
-		fieldset
-		{
-			border: none;
-			background-color: #f6f6f6;
-			padding:20px;
-
-		}
-
-
-		.Submit-button
-		{
-			font: 18px sans-sarif;
-			color:#888;
-			width: 125px;
-			margin: 5px 20 5px 20px;
-			
-		
-			
-			
-		}
-
-		form h4
-		{
-			margin: 30px 0 0 18px;
-			font: 24px sans-serif;
-			color: black;
-			
-		}
-
-		#footer {
-			height:300px;
-			/*clear: both;*/
-			opacity:0.5;
-			font-weight: bolder;
-			font-size: 20px;
-			float: right;
-			width:300px;
-			text-align: left;
-			padding-top: 230px;
-
-
-		}
-
-		</style>
-
-
-	</head>
-
+<script src="function.js"></script>
+</head>
 <body>
 
-	<div id = "menu">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="About.html">About</a></li>
-				<li><a href="Contact.html">Contact</a></li>
+<nav class="navbar navbar-default">
+	<div class = "container-fluid">
+		
+		<div class ="navbar-header">
+					
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+			<a heref="#" class="navbar-brand">Portfolio Page</a></div>
 
+		<div class="collapse navbar-collapse" id = "mainNavBar">
+
+			<ul class="nav navbar-nav">
+				<li ><a href="index.html">Home</a></li>
+				<li><a href="About.html">About</a></li>
+				<li class="active"><a href="Contact.html">Contact</a></li>
 			</ul>
 		</div>
+</nav>
+
 	<div id="form-wrap">
 	<form>
-		<fieldset>
-			<h4>Contact Me:</h4>
+		<fieldset><legend>Contact Me:</legend>
 
 		<p id= "welcome"></p>
-<form>
 
 
-	<label>Name: <br/><input type="text" id="name"/></label>
-	<label>Email:<br/><input type="email" id="email"/></label>
-	<label for="Comments">Comments:<br/><textarea id = "textareacomments" name="Comments"></textarea></label>
+
+	<label>Name: <br/><input type="text" id="name"/></label><br/>
+	<label>Email:<br/><input type="email" id="email"/></label><br/>
+	<label for="Comments">Comments:<br/><textarea id = "textareacomments" name="Comments"></textarea></label><br/>
 	<input type = "button" id "Submit-button" value="Submit" onclick="write_name();"/>
 	<input id="Submit-button" type="reset" value="Reset Form"/>
 
@@ -147,7 +65,14 @@
 	
 
 </div><!--form-wrap-->
-<div id = "footer"><em>aheset@gmail.com</em><br /><em>aheset@facebook.com</em><br /><em>Slack Grand Circus: @aheset</em></div>
+<div id = "footer"><span class="images">
+			<img src="p1webdesign.jpg">
+			<img src="p1book.jpg">
+			<img src="p1networking.jpg"></span>
+
+			<div id = "footer-text">aheset@gmail.com<br/>aheset@facebook.com<br />Slack Grand Circus: @aheset</div>
+
+</div>
 
 </body>
 
