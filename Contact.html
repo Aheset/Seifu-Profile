@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC>
+
+<html>
+	<head>
+		<title>Contact Form</title>
+
+<script type="text/javascript" src="function.js"></script>
+
+		<link href="menu.css" rel="stylesheet" type= "text/css"/>
+
+
+		<style type="text/css">
+
+
+		html {
+			background-color: #999;
+			background-image: url("sky.jpg");
+			background-repeat: no-repeat;
+			background-position: center center;
+
+		
+		}
+
+		#form-wrap
+		{
+			width: 600px;
+			border: 5px solid #ccc;
+			background-color: grey;
+			opacity:0.5;
+			margin-left: 50px;
+			padding: 20px;
+			opacity: 0.5;
+			border-style:solid;
+			float: left;
+
+		}
+
+		form
+		{
+			width: 600px;
+			margin: 0 auto;
+			float: right;
+
+		}
+
+		label
+		{
+			display:block;
+			margin: 5px 0 5px 20px;
+			font: 18px sans-sarif;
+			color:#888;
+		}
+
+		input 
+		{
+			width: 250px;
+			font: 18px sans-sarif;
+			color:#888;
+
+		}
+
+		textarea
+		{
+			width: 250px;
+			margin: 0 0 0 0;
+		}
+
+		fieldset
+		{
+			border: none;
+			background-color: #f6f6f6;
+			padding:20px;
+
+		}
+
+
+		.Submit-button
+		{
+			font: 18px sans-sarif;
+			color:#888;
+			width: 125px;
+			margin: 5px 20 5px 20px;
+			
+		
+			
+			
+		}
+
+		form h4
+		{
+			margin: 30px 0 0 18px;
+			font: 24px sans-serif;
+			color: black;
+			
+		}
+
+		#footer {
+			height:300px;
+			/*clear: both;*/
+			opacity:0.5;
+			font-weight: bolder;
+			font-size: 20px;
+			float: right;
+			width:300px;
+			text-align: left;
+			padding-top: 230px;
+
+
+		}
+
+		</style>
+
+
+	</head>
+
+<body>
+
+	<div id = "menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="About.html">About</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+
+			</ul>
+		</div>
+	<div id="form-wrap">
+	<form>
+		<fieldset>
+			<h4>Contact Me:</h4>
+
+		<p id= "welcome"></p>
+<form>
+
+
+	<label>Name: <br/><input type="text" id="name"/></label>
+	<label>Email:<br/><input type="email" id="email"/></label>
+	<label for="Comments">Comments:<br/><textarea id = "textareacomments" name="Comments"></textarea></label>
+	<input type = "button" id "Submit-button" value="Submit" onclick="write_name();"/>
+	<input id="Submit-button" type="reset" value="Reset Form"/>
+
+</form>
+
+		</fieldset>
+
+	</form>
+
+	
+
+</div><!--form-wrap-->
+<div id = "footer"><em>aheset@gmail.com</em><br /><em>aheset@facebook.com</em><br /><em>Slack Grand Circus: @aheset</em></div>
+
+</body>
+
+</html>

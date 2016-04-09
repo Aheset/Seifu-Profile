@@ -1,0 +1,43 @@
+
+
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tablet Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+
+body{
+
+	background: url(heros-bg.jpg);
+	
+}
+
+.container{
+
+	text-align: center;
+}
+
+.jumbotron{
+	background: transparent;
+}
+
+.container1{
+	border: solid white;
+	font-size: 18px;
+	background-color: f5f5f5;
+}
+
+.glyph{
+	background-color: f5f5f5;
+}
+
+/*http://www.catswhocode.com/blog/making-a-website-responsive-in-3-easy-steps*/
